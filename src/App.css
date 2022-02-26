@@ -1,11 +1,17 @@
+.App {
+  margin: 0 auto;
+  background-color: powderblue;
+  max-width: 960px;
+}
 .App-header {
   text-align: center;
-  margin: 30px;
 }
 .app-logo {
   height: 300px;
   width: 300px;
 }
 .footer {
-  background-color: powderblue;
+  margin-top: 10px;
+  padding: 10px 0 40px 0;
+  text-align: center;
 }

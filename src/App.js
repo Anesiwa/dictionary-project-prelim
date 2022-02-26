@@ -14,7 +14,9 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="footer">Open sourced by Amelia Arku</footer>
+        <footer className="footer">
+          Open sourced by Amelia Arku on GitHub
+        </footer>
       </div>
     </div>
   );
