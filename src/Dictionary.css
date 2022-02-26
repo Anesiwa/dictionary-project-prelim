@@ -6,7 +6,7 @@ h2 {
 section {
   background-color: #f1f1f2;
   border-radius: 8px;
-  box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+  box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
   margin: 20px 0;
   padding: 25px;
 }
@@ -16,9 +16,21 @@ section {
 }
 
 .phoentics {
-  margin: 30px 0;
+  margin: 0;
 }
-
+.phonetic-sound {
+  border-radius: 25px;
+  padding: 15px;
+  font-size: 15px;
+  background-color: powderblue;
+  margin-left: 15px;
+  line-height: 1;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 .examples {
   font-style: italic;
   margin: 5px 0;
