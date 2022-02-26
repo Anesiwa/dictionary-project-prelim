@@ -1,5 +1,4 @@
-.App-header,
-.App {
+.App-header {
   text-align: center;
   margin: 30px;
 }
@@ -9,4 +8,7 @@
 }
 .footer {
   background-color: powderblue;
+}
+.App {
+  text-align: center;
 }
