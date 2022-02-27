@@ -12,7 +12,7 @@ export default function App() {
           </div>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="footer">
           Open sourced by Amelia Arku on GitHub

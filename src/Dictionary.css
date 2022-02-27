@@ -1,12 +1,16 @@
 h2 {
   font-size: 40px;
-  font-weight: 700px;
   line-height: 1;
+}
+h3 {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: bold;
 }
 section {
   background-color: #f1f1f2;
   border-radius: 8px;
-  box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
   margin: 20px 0;
   padding: 25px;
 }
@@ -14,17 +18,33 @@ section {
   display: flex;
   flex-direction: column;
 }
-
-.phoentics {
-  margin: 0;
+.Dictionary input {
+  width: 100%;
+  padding: 10px;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+.Phonetics {
+  line-height: 2;
 }
 .phonetic-sound {
   border-radius: 25px;
   padding: 15px;
-  font-size: 15px;
+  font-size: 15px 15px;
   background-color: powderblue;
   margin-left: 15px;
-  line-height: 1;
+  transition: all 150ms ease-in-out;
+  text-decoration: none;
+}
+.phonetic-text {
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: 18px;
+}
+.phonetic-sound:hover {
+  background: darkblue;
+  color: powderblue;
 }
 ul {
   list-style-type: none;
