@@ -1,6 +1,7 @@
 import logo from "./logo.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary.js";
+import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -14,9 +15,7 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer className="footer">
-          Open sourced by Amelia Arku on GitHub
-        </footer>
+        <Footer />
       </div>
     </div>
   );
