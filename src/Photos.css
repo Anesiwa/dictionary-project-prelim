@@ -1,10 +1,5 @@
-.Photos row {
-  display: flex;
-}
-
 .Photos img {
   border-radius: 6px;
   margin: 10px 0;
-  vertical-align: middle;
   max-width: 250px;
 }
