@@ -23,37 +23,40 @@ export default function Footer() {
               href="https://www.linkedin.com/in/ameliaarku/"
               target="_blank"
               rel="noopener noreferrer"
-            />
-            <img
-              src={linkedin}
-              alt="Amelia Arku's LinkedIn"
-              className="Footer-logos img-fluid"
-            />
+            >
+              <img
+                src={linkedin}
+                alt="Amelia Arku's LinkedIn"
+                className="Footer-logos img-fluid"
+              />
+            </a>
           </div>
           <div className="col-3">
             <a
               href="https://github.com/Anesiwa/dictionary-project-prelim"
               target="_blank"
               rel="noopener noreferrer"
-            />
-            <img
-              src={github}
-              alt="Amelia Arku's Github"
-              className="Footer-logos img-fluid"
-            />
+            >
+              <img
+                src={github}
+                alt="Amelia Arku's Github"
+                className="Footer-logos img-fluid"
+              />
+            </a>
           </div>
           <div className="col-3">
             <a
               href="https://reactdictionaryaa.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
-            />
-            <img
-              src={netlify}
-              alt="Amelia Arku's Netlify"
-              width={30}
-              className="Footer-logos img-fluid"
-            />
+            >
+              <img
+                src={netlify}
+                alt="Amelia Arku's Netlify"
+                width={30}
+                className="Footer-logos img-fluid"
+              />
+            </a>
           </div>
         </div>
         <div className="row mt-2">
