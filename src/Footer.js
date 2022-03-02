@@ -45,18 +45,12 @@ export default function Footer() {
             </a>
           </div>
           <div className="col-3">
-            <a
-              href="https://reactdictionaryaa.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={netlify}
-                alt="Amelia Arku's Netlify"
-                width={30}
-                className="Footer-logos img-fluid"
-              />
-            </a>
+            <img
+              src={netlify}
+              alt="Amelia Arku's Netlify"
+              width={30}
+              className="Footer-logos img-fluid"
+            />
           </div>
         </div>
         <div className="row mt-2">

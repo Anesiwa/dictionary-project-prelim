@@ -1,5 +1,8 @@
 .Footer-logos {
-  color: darkblue;
   width: 40px;
   padding-top: 2px;
+}
+.Footer div {
+  color: black;
+  font-weight: 500;
 }

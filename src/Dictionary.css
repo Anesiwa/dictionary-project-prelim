@@ -1,14 +1,16 @@
 h1 {
-  font-size: 35px;
+  font-size: 30px;
 }
 h2 {
-  font-size: 40px;
+  font-size: 45px;
   line-height: 1.5;
 }
 h3 {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1;
   font-weight: bold;
+  color: darkcyan;
+  margin-bottom: 10px;
 }
 section,
 footer {
@@ -21,6 +23,9 @@ footer {
 .searchForm {
   display: flex;
   flex-direction: column;
+}
+.App {
+  margin-top: 60px;
 }
 .Dictionary input {
   width: 100%;
